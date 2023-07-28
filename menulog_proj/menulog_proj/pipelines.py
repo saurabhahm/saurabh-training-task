@@ -10,7 +10,7 @@ import pymysql
 from menulog_proj.items import MenulogProjItem, Menulog1ProjItem, Menulog_productProjItem
 import menulog_proj.db_config as db
 
-
+#firstly you need to create table in mysql or columer as well
 class MenulogProjPipeline:
     def process_item(self, item, spider):
         # if isinstance(item, MenulogProjItem):
